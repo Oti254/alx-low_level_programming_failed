@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - a program that prints all single digit numbers from 0 to 10.
+ * main - print lowercase letters in reverse
  *
  * Return: 0 (Success)
- *
  */
 int main(void)
 {
 int i;
-for (i = 0; i < 10; i++)
+for (i = 122; i >= 97; i--)
 {
-	putchar(i + '0');
+	putchar(i);
 }
 putchar('\n');
 return (0);
