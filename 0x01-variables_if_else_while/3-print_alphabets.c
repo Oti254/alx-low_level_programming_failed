@@ -8,17 +8,14 @@
  */
 int main(void)
 {
-int lowerCase;
-int upperCase;
-while (lowerCase <= 'z')
+int i;
+for (i = 97; i <= 122; i++)
 {
-	putchar(lowerCase);
-	lowerCase += 1;
+	putchar(i);
 }
-while (upperCase <= 'Z')
+for (i = 65; i <= 90; i++)
 {
-	putchar(upperCase);
-	upperCase += 1;
+	putchar(i);
 }
 putchar('\n');
 return (0);
