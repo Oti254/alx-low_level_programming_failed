@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * print_diagonal - draws a diagonal line on the terminal
+ *
+ * @n: number of times \ should be printed
+ *
+ * Return: ....
+ *
+ */
+void print_diagonal(int n)
+{
+	int d;
+
+	for (d = 0; d < n; d++)
+	{
+		_putchar(32 * n);
+		_putchar(92);
+	}
+	_putchar('\n');
+}
