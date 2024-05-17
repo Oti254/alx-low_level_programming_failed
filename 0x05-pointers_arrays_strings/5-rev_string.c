@@ -6,7 +6,7 @@
  *
  * @s: char to be printed
  *
- * Return: nothing
+ * Return: ....
  *
  */
 void rev_string(char *s)
