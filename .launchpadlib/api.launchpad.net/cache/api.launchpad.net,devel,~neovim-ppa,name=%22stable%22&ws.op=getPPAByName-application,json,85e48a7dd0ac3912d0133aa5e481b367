@@ -1,0 +1,22 @@
+status: 200
+date: Thu, 27 Feb 2025 20:06:01 GMT
+server: gunicorn
+x-powered-by: Zope (www.zope.org), Python (www.python.org)
+content-security-policy: frame-ancestors 'self';
+content-type: application/json
+strict-transport-security: max-age=15552000
+vary: Accept,Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-launchpad-revision: aa29ae0fff49e4e804b39147c9f259d2fb023199
+x-lazr-notifications: []
+x-xss-protection: 1; mode=block
+x-vcs-revision: aa29ae0fff49e4e804b39147c9f259d2fb023199
+x-request-id: 565f3711-67bb-49bd-b91d-78f914bbeb29
+content-length: 1705
+-content-encoding: gzip
+content-location: https://api.launchpad.net/devel/~neovim-ppa?name=%22stable%22&ws.op=getPPAByName
+-varied-accept: application/json
+-varied-accept-encoding: gzip, deflate
+
+{"self_link": "https://api.launchpad.net/devel/~neovim-ppa/+archive/ubuntu/stable", "web_link": "https://launchpad.net/~neovim-ppa/+archive/ubuntu/stable", "resource_type_link": "https://api.launchpad.net/devel/#archive", "owner_link": "https://api.launchpad.net/devel/~neovim-ppa", "name": "stable", "displayname": "Neovim Stable", "reference": "~neovim-ppa/ubuntu/stable", "distribution_link": "https://api.launchpad.net/devel/ubuntu", "private": false, "suppress_subscription_notifications": false, "dependencies_collection_link": "https://api.launchpad.net/devel/~neovim-ppa/+archive/ubuntu/stable/dependencies", "description": "Neovim releases backported from Debian.\n\nHomepage: https://neovim.io\nSource/Issues: https://github.com/neovim/neovim\nDocumentation: https://neovim.io/doc\nUser Manual: https://neovim.io/doc/user\nNeovim features: https://neovim.io/doc/user/nvim.html\nPackaging: https://launchpad.net/neovim-ppa", "signing_key_fingerprint": "9DBB0BE9366964F134855E2255F96FCF8231B6DD", "require_virtualized": true, "build_debug_symbols": true, "publish_debug_symbols": true, "permit_obsolete_series_uploads": false, "authorized_size": 2048, "status": "Active", "external_dependencies": null, "metadata_overrides": null, "processors_collection_link": "https://api.launchpad.net/devel/~neovim-ppa/+archive/ubuntu/stable/processors", "enabled_restricted_processors_collection_link": "https://api.launchpad.net/devel/~neovim-ppa/+archive/ubuntu/stable/enabled_restricted_processors", "publishing_method": "Local", "repository_format": "Debian", "publish": true, "relative_build_score": 0, "http_etag": "\"6ce71a981d4772c51eb4c32d7ba39f2f8db1f176-248edbe837c6ef62040e96e3fe1e8a2b5b8be6a3\""}
